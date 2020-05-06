@@ -1,10 +1,10 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Nunito+Sans&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -27,43 +27,133 @@ time, mark, audio, video {
 }
 
 /* General Styles */
-
 *{
-    box-sizing:border-box;
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%;
+}
+html{
+  font-size:75%;
+}
+body{
+  line-height:2;
+}
+section{
+  padding:4% 0;
+}
+i{
+  color:#000000;
+  font-size:4rem;
+}
+i:hover{
+  color:#000000;
+  font-size:5rem;
+  background-color:#000000;
+  color:#FFFFFF;
 }
 
+/* Header Styles */
 header{
-    background:lightgrey;
+  height:30vh;
+  background-image:url("https://picsum.photos/200");
+  opacity:.5;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
 }
 
-h1{
-    font-size:35px;
+/* nav styles start here  */
+header nav{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
 }
-
-h2
-
-nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#pics{
-    display:flex;
-    justify-content:center;
-}
-
-#contact-bottom
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+.links{
+  display:flex;
+  justify-content:flex-end;
   }
+nav a{
+  color:#FFFFFF;
+  text-decoration:none;
+  letter-spacing:3px;
+}
+nav a:hover{
+  color:#000000;
+}
+/* nav styles end here  */
 
-.fa:hover {
-  opacity: 0.7;
+.title-container{
+  height:30vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+/* End Of Header Styles */
 
-footer
+/* About Section Styles */
+#about{
+  display:flex;
+  justify-content:center;
+}
+
+#about .text{
+  background-color:#A9A9A9;
+  padding:4%;
+  text-align:center;
+  width:80%;
+}
+.text p{
+  text-align:justify;
+}
+/* End Of About Section Styles */
+
+/* Skills Section Styles */
+#skills{
+  background-color:#E0FFFF;
+}
+#skills h2{
+  text-align:center;
+  padding:3% 0;
+}
+#skills .container{
+  display:flex;
+  justify-content:space-around;
+}
+#skills .container div{
+  text-align:center;
+  width:25%;
+}
+#skills .container div p{
+  text-align:justify;
+}
+
+/* End Of Skills Section */
+
+/* Footer Section Styles */
+footer{
+  background-color:#E0FFFF;
+  padding: 3% 0;
+  text-align:center;
+}
+footer div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+button{
+  font-size:18px;
+  width:100%;
+  background-color:#FFFFFF;
+  color:#000000;
+  padding: 2% 0;
+  border: 2px solid #000000;
+  margin-bottom:3%;
+}
+button:hover{
+  background-color:#000000;
+  color:#FFFFFF;
+  border:2px solid #FFFFFF;
+}
+/* End Of Footer Section Styles */
