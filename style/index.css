@@ -33,9 +33,6 @@ time, mark, audio, video {
   margin:0;
   max-width:100%;
 }
-html{
-  font-size:75%;
-}
 body{
   line-height:2;
 }
@@ -51,6 +48,12 @@ i:hover{
   font-size:5rem;
   background-color:#000000;
   color:#FFFFFF;
+}
+h2{
+  font-size:20px;
+}
+.title{
+  font-size:50px;
 }
 
 /* Header Styles */
@@ -105,7 +108,7 @@ nav a:hover{
   width:80%;
 }
 .text p{
-  text-align:justify;
+  text-align:center;
 }
 /* End Of About Section Styles */
 
