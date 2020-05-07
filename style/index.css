@@ -178,10 +178,49 @@ footer div{
     width:50%;
   }
 
-  @media(max-width:800px){
-    background-color:green;
+h3{
+  font-size:2rem;
+}
+
+  @media(max-width:1100px){
+    .title .centered{
+      display:none;
+    }
   }
 
-  @media(max-width:500px){
-    background-color:yellow;
+  @media(max-width:800px){
+    /* html{
+    background-color:green;
+  } */
+    #about .text{
+    font-size:1.35rem;
   }
+    .links{
+      justify-content:center;
+    }
+    .container{
+      display:flex;
+      justify-content:column;
+    }
+    h3{
+      font-size:1.75rem;
+    }
+}
+
+  @media(max-width:500px){
+    /* html{
+    background-color:yellow;
+  } */
+  .title{
+    display:none;
+  }
+  .container{
+    width:100%;
+  }
+  h3{
+    font-size:1.5rem;
+  }
+  .text h2{
+    display:none;
+  }
+}
