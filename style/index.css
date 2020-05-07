@@ -165,7 +165,7 @@ footer div{
   }
 .social:hover{
     color:#000000;
-    font-size:5rem;
+    font-size:4rem;
     color:#FFFFFF;
   }
 
@@ -223,4 +223,53 @@ h3{
   .text h2{
     display:none;
   }
+  .links{
+    display:none;
+  }
+  .button{
+    display:none;
+  }
+  .social:hover{
+    color:#000000;
+    font-size:4rem;
+    color:#FFFFFF;
+  }
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size:2rem;
+}
+
+#about-pg{
+  display:flex;
+  justify-content:center;
+}
+
+#about-pg .text{
+  background-color:#A9A9A9;
+  padding:2%;
+  text-align:center;
+  width:50%;
+  font-size:1.5rem;
+}
+.text p{
+  text-align:center;
 }
