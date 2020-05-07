@@ -109,9 +109,6 @@ nav a:hover{
 /* End Of About Section Styles */
 
 /* Skills Section Styles */
-#skills{
-  background-color:#E0FFFF;
-}
 #skills h2{
   text-align:center;
   padding:3% 0;
@@ -132,7 +129,6 @@ nav a:hover{
 
 /* Footer Section Styles */
 footer{
-  background-color:#E0FFFF;
   padding: 3% 0;
   text-align:center;
 }
