@@ -59,7 +59,6 @@ h2{
 /* Header Styles */
 header{
   height:30vh;
-  background-image:url("https://picsum.photos/200");
   opacity:.5;
   background-size:cover;
   background-position:center;
@@ -75,24 +74,32 @@ header nav{
 .links{
   display:flex;
   justify-content:flex-end;
-  }
+}
 nav a{
-  color:#FFFFFF;
+  color:#000000;
   text-decoration:none;
-  letter-spacing:3px;
+  letter-spacing:2px;
+  padding:10px;
 }
 nav a:hover{
-  color:#000000;
+  color:#A9A9A9;
 }
 /* nav styles end here  */
 
-.title-container{
-  height:30vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
+.title {
+  position: relative;
+  text-align: center;
+  color: white;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title img{
+  width:95%;
+  }
 /* End Of Header Styles */
 
 /* About Section Styles */
