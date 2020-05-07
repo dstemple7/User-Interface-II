@@ -273,3 +273,7 @@ div.desc {
 .text p{
   text-align:center;
 }
+
+img{
+  border-radius:2%;
+}
