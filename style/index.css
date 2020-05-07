@@ -18,7 +18,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -38,10 +38,10 @@ section{
 }
 
 h2{
-  font-size:20px;
+  font-size:2rem;
 }
 .title{
-  font-size:50px;
+  font-size:5rem;
 }
 
 /* Header Styles */
@@ -66,8 +66,8 @@ header nav{
 nav a{
   color:#000000;
   text-decoration:none;
-  letter-spacing:2px;
-  padding:10px;
+  letter-spacing:.2rem;
+  padding:1rem;
 }
 nav a:hover{
   color:#A9A9A9;
@@ -101,7 +101,7 @@ nav a:hover{
   padding:4%;
   text-align:center;
   width:80%;
-  font-size:20px;
+  font-size:2rem;
 }
 .text p{
   text-align:center;
@@ -140,7 +140,7 @@ footer div{
 .button{
   display:flex;
   position:relative;
-  font-size:18px;
+  font-size:1.8rem;
   width:100%;
   text-align:center;
   justify-content:center;
