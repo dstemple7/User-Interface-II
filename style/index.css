@@ -1,1 +1,170 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* General Styles */
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%;
+}
+body{
+  line-height:2;
+}
+section{
+  padding:4% 0;
+}
+
+h2{
+  font-size:2rem;
+}
+.title{
+  font-size:5rem;
+}
+
+/* Header Styles */
+header{
+  height:30vh;
+  opacity:.5;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+/* nav styles start here  */
+header nav{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+.links{
+  display:flex;
+  justify-content:flex-end;
+}
+nav a{
+  color:#000000;
+  text-decoration:none;
+  letter-spacing:.2rem;
+  padding:1rem;
+}
+nav a:hover{
+  color:#A9A9A9;
+}
+/* nav styles end here  */
+
+.title {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title img{
+  width:95%;
+  }
+/* End Of Header Styles */
+
+/* About Section Styles */
+#about{
+  display:flex;
+  justify-content:center;
+}
+
+#about .text{
+  background-color:#A9A9A9;
+  padding:4%;
+  text-align:center;
+  width:80%;
+  font-size:2rem;
+}
+.text p{
+  text-align:center;
+}
+/* End Of About Section Styles */
+
+/* Skills Section Styles */
+#skills h2{
+  text-align:center;
+  padding:3% 0;
+}
+#skills .container{
+  display:flex;
+  justify-content:space-around;
+}
+#skills .container div{
+  text-align:center;
+  width:25%;
+}
+#skills .container div p{
+  text-align:justify;
+}
+
+/* End Of Skills Section */
+
+/* Footer Section Styles */
+footer{
+  padding: 3% 0;
+  text-align:center;
+}
+footer div{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.button{
+  display:flex;
+  position:relative;
+  font-size:1.8rem;
+  width:100%;
+  text-align:center;
+  justify-content:center;
+  align-self:center;
+  align-items:center;
+  background-color:#FFFFFF;
+  color:#000000;
+  padding: 2% 0;
+}
+.button:hover{
+  background-color:#000000;
+  color:#FFFFFF;
+}
+/* End Of Footer Section Styles */
+
+.social{
+  display:flex;
+  align-content:center;
+  justify-content:center;
+  color:#000000;
+  font-size:4rem;
+  }
+.social:hover{
+    color:#000000;
+    font-size:5rem;
+    color:#FFFFFF;
+  }
