@@ -110,6 +110,7 @@ nav a:hover{
   padding:4%;
   text-align:center;
   width:80%;
+  font-size:20px;
 }
 .text p{
   text-align:center;
@@ -149,7 +150,7 @@ footer div{
   justify-content:center;
   align-items:center;
 }
-button{
+.button{
   display:flex;
   position:relative;
   font-size:18px;
@@ -162,7 +163,7 @@ button{
   color:#000000;
   padding: 2% 0;
 }
-button:hover{
+.button:hover{
   background-color:#000000;
   color:#FFFFFF;
 }
