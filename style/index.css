@@ -199,14 +199,15 @@ h3{
     .links{
       justify-content:center;
     }
-    .container{
+    .one, .two, .three, .four, .five, .six{
       display:flex;
-      justify-content:column;
+      flex-wrap:wrap;
+      width:50%;
     }
     h3{
       font-size:1.75rem;
     }
-}
+  }
 
   @media(max-width:500px){
     /* html{
