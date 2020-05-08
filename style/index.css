@@ -279,3 +279,7 @@ div.desc {
 img{
   border-radius:10px 50px;
 }
+
+#ital-this{
+  font-style:italic;
+}
