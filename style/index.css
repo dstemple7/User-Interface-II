@@ -47,7 +47,7 @@ h2{
 /* Header Styles */
 header{
   height:30vh;
-  opacity:.5;
+  opacity:.8;
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
@@ -55,7 +55,7 @@ header{
 
 /* nav styles start here  */
 header nav{
-  width:100%;
+  width:95%;
   display:flex;
   justify-content:space-between;
 }
@@ -81,6 +81,7 @@ nav a:hover{
 }
 .centered {
   position: absolute;
+  opacity:none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -275,5 +276,5 @@ div.desc {
 }
 
 img{
-  border-radius:2%;
+  border-radius:10px 50px;
 }
